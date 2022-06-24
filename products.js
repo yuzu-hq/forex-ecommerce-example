@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    name: "Earthen Bottle",
+    href: "#",
+    usdPrice: 48,
+    imageSrc: require("./public/product-1.jpg"),
+    imageAlt: "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+  },
+  {
+    id: 2,
+    name: "Nomad Tumbler",
+    href: "#",
+    usdPrice: 35,
+    imageSrc: require("./public/product-2.jpg"),
+    imageAlt: "Olive drab green insulated bottle with flared screw lid and flat top.",
+  },
+  {
+    id: 3,
+    name: "Focus Paper Refill",
+    href: "#",
+    usdPrice: 89,
+    imageSrc: require("./public/product-3.jpg"),
+    imageAlt: "Person using a pen to cross a task off a productivity paper card.",
+  },
+  {
+    id: 4,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    usdPrice: 35,
+    imageSrc: require("./public/product-4.jpg"),
+    imageAlt: "Hand holding black machined steel mechanical pencil with brass tip and top.",
+  },
+  {
+    id: 5,
+    name: "Focus Card Tray",
+    href: "#",
+    usdPrice: 64,
+    imageSrc: require("./public/product-5.jpg"),
+    imageAlt: "Paper card sitting upright in walnut card holder on desk.",
+  },
+  {
+    id: 6,
+    name: "Focus Multi-Pack",
+    href: "#",
+    usdPrice: 39,
+    imageSrc: require("./public/product-6.jpg"),
+    imageAlt: "Stack of 3 small drab green cardboard paper card refill boxes with white text.",
+  },
+  {
+    id: 7,
+    name: "Brass scissors",
+    href: "#",
+    usdPrice: 50,
+    imageSrc: require("./public/product-7.jpg"),
+    imageAlt: "Brass scissors with geometric design, black steel finger holes, and included upright brass stand.",
+  },
+  {
+    id: 8,
+    name: "Focus Carry Pouch",
+    href: "#",
+    usdPrice: 32,
+    imageSrc: require("./public/product-8.jpg"),
+    imageAlt: "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+  },
+];
+
+export default products;
